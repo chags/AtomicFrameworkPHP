@@ -1,0 +1,4 @@
+dbhost=localhost
+dbname=atomic
+dbuser=root
+dbpass=
