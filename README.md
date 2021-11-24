@@ -1,13 +1,13 @@
 # Atomic Framework PHP
-GNU Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+GNU Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/><br>
 Framework desenvolvido em php msql, html, css
 
-Informações
-possui arquitetura orientada a objeto
-Possui arquitetura MVC mult modulos
-Você poderá criar vários modulos com MVCs separados e independentes
+Informações<br>
+possui arquitetura orientada a objeto<br>
+Possui arquitetura MVC mult modulos<br>
+Você poderá criar vários modulos com MVCs separados e independentes<br>
 
-Instruções de Uso
+Instruções de Uso:<br>
 
 jamais apague o arquivo .htaccess da rais da pasta se tiver usando apache.
 
