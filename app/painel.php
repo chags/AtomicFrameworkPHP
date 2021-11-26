@@ -12,18 +12,22 @@
 
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?=$template->css(); ?>
 
-    <title>Hello, world!</title>
+    <title>Atomic Framework!</title>
   </head>
-  <body>
+  <body class="bg-indigo-100">
+  <?php $template->component('nav'); ?>
+  <div class="md:container md:mx-auto">
+  <?=$template->invokeView(); ?>
+</div>
 
-<?php // $template->component('nav'); ?>
-<?=$template->invokeView(); ?>
+
+
 
 <?php
 $template->js();
